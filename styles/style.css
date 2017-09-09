@@ -1,4 +1,7 @@
 /* This is for My HTML Page 2 */
+*{
+  border: 1px solid rgba(0,0,0,0.3);
+}
 body {
 	background:#e8ebef;
 }
@@ -10,6 +13,16 @@ p,ol,ul {
   word-spacing: 0.05em;
   letter-spacing: 0.2em;
   text-transform: uppercase;
+  min-width:200px;
+  max-width:400px;
+  min-height:10px;
+  max-height:100px;
+  overflow: scroll; 
+  border-style: solid;
+  border-width:4px 2px 4px 2px;
+  border-color:#AF3432;
+    border-radius:100px;
+
 
  }
 
